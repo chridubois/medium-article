@@ -1,0 +1,77 @@
+body {
+  background-color:#F7F9FC;
+  font-family: 'Open Sans', sans-serif;
+  color:lightslategrey;
+  line-height:10px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.card .h2 {
+  font-size: 18px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  background: white;                         /* White background */
+  padding: 10px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.card .description {
+  text-align:justify;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1280x500");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.description {
+  margin: 0 auto;
+  line-height: 20px;
+  width: 80%;
+}
+
+.banner .title {
+  padding-top: 200px;
+}
+
+.banner .description {
+  padding-top: 100px;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 600px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+}
